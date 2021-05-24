@@ -1,0 +1,98 @@
+
+<html>
+<head>
+<title>
+    Family Book
+</title>
+</head>
+<body>
+    <h1>
+
+    </h1>
+   
+<script>
+    var imgs=["https://cdn4.iconfinder.com/data/icons/family-cartoon/512/g10484-512.png"]
+    var names=["family","dad","mom","son","daughter"]
+</script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<title>
+    Family Book
+</title>
+</head>
+<body>
+    <h1>
+My Family Book
+    </h1>
+    <img src="https://thumbs.dreamstime.com/z/cartoon-family-16963718.jpg"
+    style="width: 30%;" id="family_member_image">
+    <h4 id="family_member_name">
+    Dad
+    </h4>
+   <button onclick="people()";>
+       Next
+   </button>
+<script>
+    var family_member_image=["https://cdn4.iconfinder.com/data/icons/family-cartoon/512/g10484-512.png"];
+    var family_member_name=["family","dad","mom","son","daughter"];
+    console.log(family_member_name);
+    var i=0;
+    function people()
+    {
+i++;
+var numbers_of_family_member_in_array=5
+if(i> numbers_of_family_member_in_array)
+{
+    i=0;
+}
+var updatedImage = images[i];
+var updatedName = names[i];
+document.getElementById("family_member_image").src = updatedImage;
+document.getElementById("family_member_name").innerHTML = updatedName;    
+}
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
